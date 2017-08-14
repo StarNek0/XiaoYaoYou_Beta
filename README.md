@@ -21,4 +21,7 @@
 
     6、命令行->保持在与manage.py同一目录下->输入命令python manage.py runserver 
 
-    7、网址输入http://localhost:8000/city_around1 
+    7、网址输入http://localhost:8000/city_around/1 
+
+- 数据库
+    数据正在制作中，一周内制作完毕
