@@ -1,0 +1,295 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}
+    {{ city_A.name }} - 逍遥游
+{% endblock %}
+
+{% block custom_bread %}
+    <section>
+        <div class="wp">
+            <ul class="crumbs">
+                <li><a href="">首页</a>></li>
+                <li>{{ city_A.name }}</li>
+            </ul>
+        </div>
+    </section>
+{% endblock %}
+
+{% block content %}
+    <section>
+        <div class="wp">
+            <div class="list" style="margin-top:0;">
+                <div class="left layout">
+                    <div class="head">
+                        <ul class="tab_header">
+                            <li class="active"><a href="">附近城市 </a></li>
+                        </ul>
+                    </div>
+                    <div id="inWindow">
+                        <div class="tab_cont " id="content">
+                            <div class="group_list">
+                                    {% for around_city in around_citys %}
+                                        {% if not around_city == city_A %}
+                                    <div class="box">
+                                        <a href="{% url 'tour_way' city_A.city_id  around_city.city_id %}">
+                                            <img width="280" height="350" class="scrollLoading"
+                                                 src="{{ MEDIA_URL }}{{ around_city.image }}"/>
+                                        </a>
+                                        <div class="des">
+                                            <a href="{% url 'tour_way' city_A.city_id  around_city.city_id %}">
+                                                <h2>{{ around_city.name }}</h2>
+                                            </a>
+                                            <span class="fl">距离：<i class="key">200km</i></span>
+                                        </div>
+                                        <div class="bottom">
+                                            <a href=""><span
+                                                    class="fl">江苏省</span></a>
+                                            <span class="star fr  notlogin
+                                        " data-favid="15">
+                                        12345
+                                    </span>
+                                        </div>
+                                    </div>
+                                        {% endif %}
+                                    {% endfor %}
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+
+
+{#<!DOCTYPE html>#}
+{#{% load staticfiles %}#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>周边城市</title>#}
+{#    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>#}
+    {#    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">#}
+{#    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">#}
+{#    <style type="text/css">#}
+{#        #container {#}
+{#            width: 800px;#}
+{#            height: 410px;#}
+{#            top: 49px;#}
+{#            left: 2px;#}
+{#        }#}
+{##}
+{#        #panel {#}
+{#            position: absolute;#}
+{#            background-color: white;#}
+{#            max-height: 90%;#}
+{#            overflow-y: auto;#}
+{#            top: 49px;#}
+{#            left: 802px;#}
+{#            width: 280px;#}
+{#            height: 410px;#}
+{#        }#}
+{##}
+{#        .list {#}
+{#            height: auto;#}
+{##}
+{#            margin-top: 485px;#}
+{#            margin-left: 250px;#}
+{#            margin-right: 250px;#}
+{#            margin-bottom: 40px;#}
+{#            min-height: 200px;#}
+{#            overflow: hidden;#}
+{#            clear: both;#}
+{#            position: relative;#}
+{#        }#}
+{##}
+{#        .list .layout {#}
+{#            border: 1px solid #eaeaea;#}
+{#            background: #f8f8f8;#}
+{#        }#}
+{##}
+{#        .list .layout .head, .personal_des .head {#}
+{#            border-bottom: 1px solid #eaeaea;#}
+{#            background: #f8f8f8;#}
+{#            color: #333;#}
+{#            height: 45px;#}
+{#            line-height: 50px;#}
+{#            text-indent: 20px;#}
+{#            font-size: 16px;#}
+{#        }#}
+{##}
+{#        .list .left {#}
+{#            width: 1080px;#}
+{#            float: left;#}
+{#            height: 500px;#}
+{#        }#}
+{##}
+{#        .list .right {#}
+{#            width: 280px;#}
+{#            float: left;#}
+{#            margin-bottom: 20px;#}
+{#            overflow: hidden;#}
+{#        }#}
+{##}
+{#        .list .right .more {#}
+{#            float: right;#}
+{#            color: #717171;#}
+{#            margin-right: 5px;#}
+{#            cursor: pointer;#}
+{#        }#}
+{##}
+{#        .tab_cont {#}
+{#            clear: both;#}
+{#            width: 96%;#}
+{#            padding: 2%;#}
+{#            height: 420px;#}
+{#            line-height: 200%;#}
+{#        }#}
+{##}
+{#        .tab_cont.tab_cont2 {#}
+{#            display: none;#}
+{#        }#}
+{##}
+{#        .list span {#}
+{#            color: #9f9f9f;#}
+{#        }#}
+{##}
+{#        .tab_header {#}
+{#            height: 60px;#}
+{#            line-height: 50px;#}
+{#            text-indent: 0;#}
+{#        }#}
+{##}
+{#        .tab_header li {#}
+{#            height: 48px;#}
+{#            float: left;#}
+{#            text-align: center;#}
+{#            display: inline-block;#}
+{#            width: auto;#}
+{#            text-indent: 0;#}
+{#            margin: 0 20px;#}
+{#            padding: 0 2px;#}
+{#            cursor: pointer;#}
+{#        }#}
+{##}
+{#        .tab_header a {#}
+{#            color: #333;#}
+{#            display: inline-block;#}
+{#            height: 48px;#}
+{#            line-height: 48px;#}
+{#            width: auto;#}
+{#        }#}
+{##}
+{#        .tab_header .active {#}
+{#            border-bottom: 2px solid #717171;#}
+{#            color: #717171;#}
+{#            font-weight: bold;#}
+{#        }#}
+{##}
+{#        .list .group_list {#}
+{#            width: 100%;#}
+{#            height: auto;#}
+        {#            overflow: hidden;#}
+{#        }#}
+{##}
+{#        .list .group_list .box {#}
+{#            width: 339px;#}
+{#            height: 320px;#}
+{#            margin: 3px;#}
+        {#            overflow: hidden;#} float: left;
+{#            display: inline;#}
+{#        }#}
+{##}
+{#        .list .group_list .box a {#}
+{#            width: 100%;#}
+{#        }#}
+{##}
+{#        .list .group_list .box .des {#}
+{#            height: 70px;#}
+{#            /*width: 100%;*/#}
+{#        }#}
+{##}
+{#        .list .group_list .box .des h2 {#}
+{#            font-size: 18px;#}
+{#            line-height: 30px;#}
+{#        }#}
+{##}
+{#        .list .group_list .des span {#}
+{#            font-size: 14px;#}
+{#        }#}
+{##}
+{#        .list .group_list .des .key {#}
+{#            font-size: 24px;#}
+{#        }#}
+{##}
+{#        .list .group_recommend {#}
+{#            width: 100%;#}
+{#            height: auto;#}
+{#            overflow: hidden;#}
+{#        }#}
+{##}
+{#        .list .group_recommend dl {#}
+{#            height: 240px;#}
+{#            padding: 20px;#}
+{#            border-top: 1px solid #dcdcdc;#}
+{#            padding-bottom: 40px;#}
+{#        }#}
+{##}
+{#        .list .group_recommend dl:first-child {#}
+{#            border: 0;#}
+{#        }#}
+{##}
+{#        .list .group_recommend h2 {#}
+{#            font-size: 12px;#}
+{#            color: #4f4f4f;#}
+{#            line-height: 20px;#}
+{#        }#}
+{##}
+{#        .list .group_recommend .key {#}
+{#            font-size: 18px;#}
+{#            color: #ff9d33;#}
+{#        }#}
+{##}
+{#        .groupPurchase_detail_pro .right {#}
+{#            width: 210px;#}
+{#            line-height: 200%;#}
+{#        }#}
+{#    </style>#}
+{#</head>#}
+{#<body>#}
+{#<div class="wp">#}
+{#    <div class="list" style="margin-top:50px;">#}
+{#        <div class="left layout">#}
+{#            <div class="head">#}
+{#                <ul class="tab_header">#}
+{#                    <li class="active">热门景点</li>#}
+{#                </ul>#}
+{#            </div>#}
+{#            <div id="inWindow">#}
+{#                <div class="tab_cont " id="content">#}
+{#                    <div class="group_list">#}
+{#                        {% for around_city in around_citys %}#}
+{#                        <div class="box">#}
+{#                            <a href="">#}
+{#                                <img width="335" height="350" class="scrollLoading"#}
+{#                                     src="{{ MEDIA_URL }}{{ around_city.image }}"/>#}
+{#                            </a>#}
+{#                            <div class="des">#}
+{#                                <a href="">#}
+{#                                    <h2>{{ around_city.name }}</h2>#}
+{#                                </a>#}
+{#                                <span class="fl">热门指数：<i class="key">12345</i></span>#}
+{#                                <span class="fr">距离：123 km&nbsp;&nbsp;</span>#}
+{#                            </div>#}
+{#                        </div>#}
+{#                        {% endfor %}#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</div>#}
+{#</body>#}
+{#</html>#}

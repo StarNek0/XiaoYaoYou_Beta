@@ -1,0 +1,355 @@
+<!doctype html>
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>{{ city_A.name }}->{{ city_B.name }} - 逍遥游</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    {#    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">#}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+    <style type="text/css">
+        #container {
+            width: 800px;
+            height: 410px;
+            top: 49px;
+            left: 2px;
+        }
+
+        #panel {
+            position: absolute;
+            background-color: white;
+            max-height: 90%;
+            overflow-y: auto;
+            top: 49px;
+            left: 802px;
+            width: 280px;
+            height: 410px;
+        }
+
+        .list {
+            height: auto;
+
+            margin-top: 485px;
+            margin-left: 250px;
+            margin-right: 250px;
+            margin-bottom: 40px;
+            min-height: 200px;
+            overflow: hidden;
+            clear: both;
+            position: relative;
+        }
+
+        .list .layout {
+            border: 1px solid #eaeaea;
+            background: #f8f8f8;
+        }
+
+        .list .layout .head, .personal_des .head {
+            border-bottom: 1px solid #eaeaea;
+            background: #f8f8f8;
+            color: #333;
+            height: 45px;
+            line-height: 50px;
+            text-indent: 20px;
+            font-size: 16px;
+        }
+
+        .list .left {
+            width: 1080px;
+            float: left;
+            height: 500px;
+        }
+
+        .list .right {
+            width: 280px;
+            float: left;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .list .right .more {
+            float: right;
+            color: #717171;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .tab_cont {
+            clear: both;
+            width: 96%;
+            padding: 2%;
+            height: 420px;
+            line-height: 200%;
+        }
+
+        .tab_cont.tab_cont2 {
+            display: none;
+        }
+
+        .list span {
+            color: #9f9f9f;
+        }
+
+        .tab_header {
+            height: 60px;
+            line-height: 50px;
+            text-indent: 0;
+        }
+
+        .tab_header li {
+            height: 48px;
+            float: left;
+            text-align: center;
+            display: inline-block;
+            width: auto;
+            text-indent: 0;
+            margin: 0 20px;
+            padding: 0 2px;
+            cursor: pointer;
+        }
+
+        .tab_header a {
+            color: #333;
+            display: inline-block;
+            height: 48px;
+            line-height: 48px;
+            width: auto;
+        }
+
+        .tab_header .active {
+            border-bottom: 2px solid #717171;
+            color: #717171;
+            font-weight: bold;
+        }
+
+        .list .group_list {
+            width: 100%;
+            height: auto;
+        {#            overflow: hidden;#}
+        }
+
+        .list .group_list .box {
+            width: 339px;
+            height: 320px;
+            margin: 3px;
+        {#            overflow: hidden;#} float: left;
+            display: inline;
+        }
+
+        .list .group_list .box a {
+            width: 100%;
+        }
+
+        .list .group_list .box .des {
+            height: 70px;
+            /*width: 100%;*/
+        }
+
+        .list .group_list .box .des h2 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        .list .group_list .des span {
+            font-size: 14px;
+        }
+
+        .list .group_list .des .key {
+            font-size: 24px;
+        }
+
+        .list .group_recommend {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+        .list .group_recommend dl {
+            height: 240px;
+            padding: 20px;
+            border-top: 1px solid #dcdcdc;
+            padding-bottom: 40px;
+        }
+
+        .list .group_recommend dl:first-child {
+            border: 0;
+        }
+
+        .list .group_recommend h2 {
+            font-size: 12px;
+            color: #4f4f4f;
+            line-height: 20px;
+        }
+
+        .list .group_recommend .key {
+            font-size: 18px;
+            color: #ff9d33;
+        }
+
+        .groupPurchase_detail_pro .right {
+            width: 210px;
+            line-height: 200%;
+        }
+
+        /*crumbs*/
+
+        .crumbs {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            color: #454545;
+            letter-spacing: 2px;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .crumbs li {
+            float: left;
+        }
+
+        .crumbs a {
+            color: #7f7f7f;
+        }
+
+        .crumbs a:hover {
+            color: #717171;
+        }
+    </style>
+    <script type="text/javascript"
+            src="http://webapi.amap.com/maps?v=1.3&key=006fd4a0a002b880ee411c88af27a4cb&plugin=AMap.Driving"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+
+<body>
+<section>
+    <div class="wp">
+        <ul class="crumbs"style="margin-left: 350px">
+            <li><a href="">首页</a>></li>
+            <li><a href="{% url 'city_around' city_A.id %}">{{ city_A.name }}</a>></li>
+            <li>{{ city_A.name }} —> {{ city_B.name }}</li>
+        </ul>
+    </div>
+</section>
+<section>
+    <div class="wp">
+        <div class="list" style="margin-top:0px;margin-left: 350px">
+            <div class="left layout">
+                <div class="head">
+                    <ul class="tab_header">
+                        <li class="active">热门景点</li>
+                    </ul>
+                </div>
+                <div id="inWindow">
+                    <div class="tab_cont " id="content">
+                        <div class="group_list">
+
+                            <div class="box">
+                                <a href="">
+                                    <img width="335" height="350" class="scrollLoading"
+                                         src="{% static 'images/taihu.jpg' %}"/>
+                                </a>
+                                <div class="des">
+                                    <a href="">
+                                        <h2>太湖</h2>
+                                    </a>
+                                    <span class="fl">热门指数：<i class="key">12345</i></span>
+                                    <span class="fr">票价：0&nbsp;&nbsp;</span>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <a href="">
+                                    <img width="335" height="350" class="scrollLoading"
+                                         src="{% static 'images/xishan.jpg' %}"/>
+                                </a>
+                                <div class="des">
+                                    <a href="">
+                                        <h2>西山</h2>
+                                    </a>
+                                    <span class="fl">热门指数：<i class="key">12345</i></span>
+                                    <span class="fr">票价：0&nbsp;&nbsp;</span>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <a href="">
+                                    <img width="335" height="350" class="scrollLoading"
+                                         src="{% static 'images/24.jpg' %}"/>
+                                </a>
+                                <div class="des">
+                                    <a href="">
+                                        <h2>二十四桥</h2>
+                                    </a>
+                                    <span class="fl">热门指数：<i class="key">12345</i></span>
+                                    <span class="fr">票价：0&nbsp;&nbsp;</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wp">
+        <div class="list groupPurchase_detail_pro" style="margin-top:0px;margin-left: 350px">
+            <div class="left layout">
+                <div class="head">
+                    <ul class="tab_header">
+                        <li class="active">交通路线图</li>
+                    </ul>
+                </div>
+                <div class="tab_cont tab_cont1">
+
+                    <div id="container"></div>
+                    <div id="panel"></div>
+
+
+                </div>
+                <div class="tab_cont tab_cont2">
+                    <div class="comment">
+                        <div class="comenlist">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right layout">
+                <div class="head">
+                    <ul class="tab_header">
+                        <li class="active">出行小提示</li>
+                    </ul>
+                </div>
+                <div class="group_recommend">
+                    <p>目前方案为-出租车方案</p>
+                    <P>出行方式：公路<br/>预计时间：2小时27分钟<br/>距离：215.75公里<br/>打车费用：606元</P>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+    //基本地图加载
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+        center: [118.796877, 32.060255],//地图中心点
+        zoom: 7 //地图显示的缩放级别
+    });
+    //构造路线导航类
+    var driving = new AMap.Driving({
+        map: map,
+        panel: "panel"
+    });
+    // 根据起终点名称规划驾车导航路线
+    driving.search([
+        {keyword: '{{ city_A.name }}', city: '{{ city_A.name }}'},
+        {keyword: '{{ city_B.name }}', city: '{{ city_B.name }}'}
+    ]);
+</script>
+</body>
+</html>
