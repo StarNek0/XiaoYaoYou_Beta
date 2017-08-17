@@ -15,3 +15,7 @@ class City(models.Model):
     image = models.ImageField(upload_to='city/', default='', verbose_name='logo', max_length=100)
     hot = models.IntegerField(default=0, verbose_name='热门指数')
 
+
+class Province(models.Model):
+    p_name = models.CharField(verbose_name='省份名', default='', max_length=30)
+    wm = models.CharField(verbose_name='省份名缩写', max_length=5)

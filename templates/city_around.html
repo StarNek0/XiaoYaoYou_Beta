@@ -31,12 +31,12 @@
                                     {% for around_city in around_citys %}
                                         {% if not around_city == city_A %}
                                     <div class="box">
-                                        <a href="{% url 'tour_way' city_A.city_id  around_city.city_id %}">
+                                        <a href="{% url 'tour_way' city_A.id  around_city.id %}">
                                             <img width="280" height="350" class="scrollLoading"
                                                  src="{{ MEDIA_URL }}{{ around_city.image }}"/>
                                         </a>
                                         <div class="des">
-                                            <a href="{% url 'tour_way' city_A.city_id  around_city.city_id %}">
+                                            <a href="{% url 'tour_way' city_A.id  around_city.id %}">
                                                 <h2>{{ around_city.name }}</h2>
                                             </a>
                                             <span class="fl">距离：<i class="key">200km</i></span>
