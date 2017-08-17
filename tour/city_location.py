@@ -15,7 +15,7 @@ conn = MySQLdb.connect(
     port=3306,
     user='root',
     passwd='klxsxzsdf1',
-    db='quickly_page1',
+    db='quickly_page',
     charset='utf8',  # 不加这一行，中文变问号
 )
 cur = conn.cursor()
