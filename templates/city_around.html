@@ -39,7 +39,7 @@
                                             <a href="{% url 'tour_way' city_A.id  around_city.id %}">
                                                 <h2>{{ around_city.name }}</h2>
                                             </a>
-                                            <span class="fl">距离：<i class="key">200km</i></span>
+                                            <span class="fl">距离：<i class="key">{{ around_city.distance }}km</i></span>
                                         </div>
                                         <div class="bottom">
                                             <a href=""><span

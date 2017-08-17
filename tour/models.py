@@ -14,6 +14,7 @@ class City(models.Model):
     desc = models.TextField(verbose_name='城市描述', null=True, blank=True)
     image = models.ImageField(upload_to='city/', default='', verbose_name='logo', max_length=100)
     hot = models.IntegerField(default=0, verbose_name='热门指数')
+    distance = models.FloatField(default=0.0, verbose_name="临时距离")
 
 
 class Province(models.Model):
