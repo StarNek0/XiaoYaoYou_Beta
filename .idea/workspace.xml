@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/aui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/lq.datetimepick.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/muke/common-less.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/muke/course/common-less.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/muke/course/course-comment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/muke/course/learn-less.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/video-js.min.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/animate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/Quickly_Page/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="93" column="28" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+              <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -134,7 +126,17 @@
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -291,16 +293,16 @@
     <property name="SearchEverywhereHistoryKey" value="urlopen&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\djangoProject\Quickly_Page\static\css" />
-      <recent name="E:\djangoProject\Quickly_Page\templates" />
-      <recent name="E:\djangoProject\Quickly_Page\static\images" />
-      <recent name="E:\djangoProject\Quickly_Page\static" />
-      <recent name="E:\djangoProject\Quickly_Page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\djangoProject\Quickly_Page\static\images" />
       <recent name="E:\djangoProject\Quickly_Page\static\css" />
+      <recent name="E:\djangoProject\Quickly_Page\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python_projects\djangoProject\Quickly_Page\static\css" />
+      <recent name="E:\djangoProject\Quickly_Page\static\css" />
+      <recent name="E:\djangoProject\Quickly_Page\templates" />
+      <recent name="E:\djangoProject\Quickly_Page\static\images" />
       <recent name="E:\djangoProject\Quickly_Page\static" />
     </key>
   </component>
@@ -634,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502982587971</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="删除冗余css">
+      <created>1502983889975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502983889975</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -675,7 +684,8 @@
     <MESSAGE value="完成了数据库中城市经纬度数据的存储，添加了省份模型，城市表数据填充错误导致view中更换调用数据的列" />
     <MESSAGE value="根据访问者的ip，返回其所在的城市" />
     <MESSAGE value="完成距离计算" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成距离计算" />
+    <MESSAGE value="删除冗余css" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除冗余css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1022,7 +1025,7 @@
     <entry file="file://$PROJECT_DIR$/Quickly_Page/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="93" column="28" lean-forward="true" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+          <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1094,10 +1097,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
