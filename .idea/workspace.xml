@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="数据库结构和数据">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/quickly_page.sql" />
+    <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/2017/04/54584f8f00019fc002200220.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/PackagesVersion.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,9 +118,10 @@
       <file leaf-file-name="get_city_disc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="416">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
+                <element signature="e#96#110#0" expanded="true" />
                 <marker date="1503073480342" expanded="true" signature="490:516" ph="select desc " />
                 <marker date="1503073480342" expanded="true" signature="490:528" ph="select `desc... tour_city" />
                 <marker date="1503073480342" expanded="true" signature="490:530" ph="select `desc... tour_city" />
@@ -716,13 +718,28 @@
       <option name="project" value="LOCAL" />
       <updated>1503073480763</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="数据库结构和数据">
+      <created>1503073862828</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1503073862828</updated>
+    </task>
+    <task id="LOCAL-00016" summary="所有城市图片">
+      <created>1503073886964</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1503073886964</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5063966" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -760,7 +777,9 @@
     <MESSAGE value="汉字转化成拼音，制成url以访问百度旅游。尝试下载图片" />
     <MESSAGE value="抓取图片，文字等的原型制作完毕" />
     <MESSAGE value="city表完成了" />
-    <option name="LAST_COMMIT_MESSAGE" value="city表完成了" />
+    <MESSAGE value="数据库结构和数据" />
+    <MESSAGE value="所有城市图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="所有城市图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1155,9 +1174,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="416">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
+            <element signature="e#96#110#0" expanded="true" />
             <marker date="1503073480342" expanded="true" signature="490:516" ph="select desc " />
             <marker date="1503073480342" expanded="true" signature="490:528" ph="select `desc... tour_city" />
             <marker date="1503073480342" expanded="true" signature="490:530" ph="select `desc... tour_city" />
