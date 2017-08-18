@@ -131,8 +131,8 @@
       <file leaf-file-name="t_get_pic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="e#96#109#0" expanded="true" />
               </folding>
@@ -692,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503066145643</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="抓取图片，文字等的原型制作完毕">
+      <created>1503069692609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1503069692609</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -735,7 +742,8 @@
     <MESSAGE value="完成距离计算" />
     <MESSAGE value="删除冗余css" />
     <MESSAGE value="汉字转化成拼音，制成url以访问百度旅游。尝试下载图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="汉字转化成拼音，制成url以访问百度旅游。尝试下载图片" />
+    <MESSAGE value="抓取图片，文字等的原型制作完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="抓取图片，文字等的原型制作完毕" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1139,8 +1147,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="267">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="e#96#109#0" expanded="true" />
           </folding>

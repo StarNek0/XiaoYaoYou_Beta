@@ -14,10 +14,11 @@ urllib.urlretrieve(img_url, r'D:\\beijing.jpg')
 url = 'https://lvyou.baidu.com/daqing/'
 html = urllib2.urlopen(url).read()
 
+# 提取图片url
 imgurl = re.search('//gss0.baidu.com/.+.jpg"', html).group()
 print imgurl
 
-# xpath提取文字
+# xpath提取文字内容
 html = html.decode('utf8')
 html = etree.HTML(html)
 text = html.xpath('//p[@class="main-desc-p"]/text()')
