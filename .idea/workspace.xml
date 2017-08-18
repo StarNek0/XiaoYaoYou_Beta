@@ -131,8 +131,8 @@
       <file leaf-file-name="t_get_pic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="137">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="e#96#109#0" expanded="true" />
               </folding>
@@ -699,7 +699,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503069692609</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="抓取图片，文字等的原型制作完毕">
+      <created>1503069714969</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1503069714969</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1147,8 +1154,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#96#109#0" expanded="true" />
           </folding>

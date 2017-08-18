@@ -7,7 +7,7 @@ import urllib2
 import re
 from lxml import etree
 
-
+# 存储图片示例
 img_url = 'http://gss0.baidu.com/6b1IcTe9R1gBo1vgoIiO_jowehsv/maps/services/thumbnails?width=525&height=295&quality=100&align=middle,middle&src=http://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/lvpics/pic/item/faedab64034f78f0dd0e635279310a55b3191c0d.jpg'
 urllib.urlretrieve(img_url, r'D:\\beijing.jpg')
 
