@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/get_data_to_db/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Quickly_Page.iml" afterPath="$PROJECT_DIR$/.idea/Quickly_Page.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/views.py" afterPath="$PROJECT_DIR$/tour/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tour/city_location.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/city_location.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tour/ip_location.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/ip_location.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tour/testdistence.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/testdistence.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,8 +21,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Quickly_Page$get_city_disc.coverage" NAME="get_city_disc Coverage Results" MODIFIED="1503062330203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour/get_data_to_db" />
     <SUITE FILE_PATH="coverage/Quickly_Page$ip_location.coverage" NAME="ip_location Coverage Results" MODIFIED="1502975515139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour" />
     <SUITE FILE_PATH="coverage/Quickly_Page$city_location.coverage" NAME="city_location Coverage Results" MODIFIED="1502973657810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour" />
+    <SUITE FILE_PATH="coverage/Quickly_Page$t_get_pic.coverage" NAME="t_get_pic Coverage Results" MODIFIED="1503065868300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour/get_data_to_db" />
     <SUITE FILE_PATH="coverage/Quickly_Page$testdistence.coverage" NAME="testdistence Coverage Results" MODIFIED="1502981165155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour" />
   </component>
   <component name="DatabaseView">
@@ -46,7 +56,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Quickly_Page/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="0">
               <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
               <folding />
             </state>
@@ -56,8 +66,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tour/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="390">
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding>
                 <element signature="e#14#53#0" expanded="true" />
               </folding>
@@ -68,7 +78,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Quickly_Page/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="598">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#701#733#0" expanded="true" />
@@ -80,8 +90,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tour/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="46" column="100" lean-forward="false" selection-start-line="46" selection-start-column="100" selection-end-line="46" selection-end-column="100" />
+            <state relative-caret-position="-279">
+              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
               </folding>
@@ -89,20 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdistence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tour/testdistence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6890">
+            <state relative-caret-position="26">
               <caret line="265" column="41" lean-forward="false" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
               <folding />
             </state>
@@ -112,8 +112,8 @@
       <file leaf-file-name="city_around.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/city_around.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1066">
-              <caret line="41" column="107" lean-forward="false" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="107" />
+            <state relative-caret-position="520">
+              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <marker date="1502982292684" expanded="false" signature="9060:9066" ph=" " />
                 <marker date="1502982292684" expanded="false" signature="9066:9072" ph=" " />
@@ -122,43 +122,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <file leaf-file-name="get_city_disc.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#96#110#0" expanded="true" />
+                <marker date="1503065635825" expanded="true" signature="439:475" ph="SELECT name tour_city" />
+                <marker date="1503065635825" expanded="true" signature="439:477" ph="SELECT name tour_city" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/animate.css">
+      <file leaf-file-name="t_get_pic.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="234">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#96#109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="city_location.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tour/city_location.py">
+        <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/city_location.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="624">
+              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding>
-                <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT NM FR... tour_city" />
-                <marker date="1502974202047" expanded="true" signature="544:581" ph="SELECT name tour_city" />
-                <marker date="1502974202047" expanded="true" signature="648:692" ph="SELECT point... tour_city" />
+                <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT name tour_city" />
                 <marker date="1502974202047" expanded="true" signature="648:694" ph="SELECT point... tour_city" />
-                <marker date="1502974202047" expanded="true" signature="648:696" ph="SELECT point... tour_city" />
-                <marker date="1502974202047" expanded="true" signature="872:901" ph="UPDATE tour_... " />
-                <marker date="1502974202047" expanded="true" signature="872:912" ph="UPDATE tour_... " />
-                <marker date="1502974202047" expanded="true" signature="872:914" ph="UPDATE tour_... " />
-                <marker date="1502974202047" expanded="true" signature="872:933" ph="UPDATE tour_... " />
                 <marker date="1502974202047" expanded="true" signature="1381:1432" ph="update tour_... " />
-                <marker date="1502974202047" expanded="true" signature="1381:1434" ph="update tour_... " />
               </folding>
             </state>
           </provider>
@@ -208,8 +206,11 @@
         <option value="$PROJECT_DIR$/tour/models.py" />
         <option value="$PROJECT_DIR$/Quickly_Page/urls.py" />
         <option value="$PROJECT_DIR$/tour/testdistence.py" />
-        <option value="$PROJECT_DIR$/tour/views.py" />
         <option value="$PROJECT_DIR$/templates/city_around.html" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
+        <option value="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" />
+        <option value="$PROJECT_DIR$/tour/views.py" />
       </list>
     </option>
   </component>
@@ -242,7 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,13 +265,6 @@
             <path>
               <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="muke" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,11 +272,17 @@
               <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
               <item name="tour" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
+              <item name="get_data_to_db" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,16 +293,17 @@
     <property name="SearchEverywhereHistoryKey" value="urlopen&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\djangoProject\Quickly_Page\static\images" />
-      <recent name="E:\djangoProject\Quickly_Page\static\css" />
-      <recent name="E:\djangoProject\Quickly_Page\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Python_projects\djangoProject\Quickly_Page\static\css" />
       <recent name="E:\djangoProject\Quickly_Page\static\css" />
       <recent name="E:\djangoProject\Quickly_Page\templates" />
       <recent name="E:\djangoProject\Quickly_Page\static\images" />
+      <recent name="E:\djangoProject\Quickly_Page\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python_projects\djangoProject\Quickly_Page\tour\getData" />
+      <recent name="E:\djangoProject\Quickly_Page\static\images" />
+      <recent name="E:\djangoProject\Quickly_Page\static\css" />
       <recent name="E:\djangoProject\Quickly_Page\static" />
     </key>
   </component>
@@ -318,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.Quickly_Page">
+  <component name="RunManager" selected="Python.t_get_pic">
     <configuration name="Quickly_Page" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -525,7 +526,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Quickly_Page" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tour/city_location.py" />
+      <option name="SCRIPT_NAME" value="D:\Python_projects\djangoProject\Quickly_Page\tour\getData\city_location.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="get_city_disc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tour/get_data_to_db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quickly_Page" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -543,7 +562,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Quickly_Page" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tour/ip_location.py" />
+      <option name="SCRIPT_NAME" value="D:\Python_projects\djangoProject\Quickly_Page\tour\getData\ip_location.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="t_get_pic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tour/get_data_to_db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Quickly_Page" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -561,22 +598,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Quickly_Page" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tour/testdistence.py" />
+      <option name="SCRIPT_NAME" value="D:\Python_projects\djangoProject\Quickly_Page\tour\getData\testdistence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.Quickly_Page" />
       <item index="1" class="java.lang.String" itemvalue="Python.city_location" />
       <item index="2" class="java.lang.String" itemvalue="Python.ip_location" />
       <item index="3" class="java.lang.String" itemvalue="Python.testdistence" />
+      <item index="4" class="java.lang.String" itemvalue="Python.get_city_disc" />
+      <item index="5" class="java.lang.String" itemvalue="Python.t_get_pic" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.testdistence" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ip_location" />
-        <item index="2" class="java.lang.String" itemvalue="Python.city_location" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.t_get_pic" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_city_disc" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testdistence" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ip_location" />
+        <item index="4" class="java.lang.String" itemvalue="Python.city_location" />
       </list>
     </recent_temporary>
   </component>
@@ -643,24 +684,31 @@
       <option name="project" value="LOCAL" />
       <updated>1502983889975</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="删除冗余css">
+      <created>1502983970011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502983970011</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21801706" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.4914712" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.4914712" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39891306" sideWeight="0.50852877" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -689,33 +737,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tour/views.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66950">
-          <caret line="2575" column="1" lean-forward="false" selection-start-line="2551" selection-start-column="0" selection-end-line="2575" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tour/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -884,13 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -980,7 +999,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/ip_location.py">
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/ip_location.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
@@ -1002,57 +1021,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/city_location.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT NM FR... tour_city" />
-            <marker date="1502974202047" expanded="true" signature="544:581" ph="SELECT name tour_city" />
-            <marker date="1502974202047" expanded="true" signature="648:692" ph="SELECT point... tour_city" />
-            <marker date="1502974202047" expanded="true" signature="648:694" ph="SELECT point... tour_city" />
-            <marker date="1502974202047" expanded="true" signature="648:696" ph="SELECT point... tour_city" />
-            <marker date="1502974202047" expanded="true" signature="872:901" ph="UPDATE tour_... " />
-            <marker date="1502974202047" expanded="true" signature="872:912" ph="UPDATE tour_... " />
-            <marker date="1502974202047" expanded="true" signature="872:914" ph="UPDATE tour_... " />
-            <marker date="1502974202047" expanded="true" signature="872:933" ph="UPDATE tour_... " />
-            <marker date="1502974202047" expanded="true" signature="1381:1432" ph="update tour_... " />
-            <marker date="1502974202047" expanded="true" signature="1381:1434" ph="update tour_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Quickly_Page/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="0">
           <caret line="93" column="28" lean-forward="false" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="46" column="100" lean-forward="false" selection-start-line="46" selection-start-column="100" selection-end-line="46" selection-end-column="100" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tour/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="21" selection-end-column="61" />
-          <folding>
-            <element signature="e#14#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Quickly_Page/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
+        <state relative-caret-position="598">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#701#733#0" expanded="true" />
@@ -1064,13 +1043,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1690">
           <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/testdistence.py">
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/testdistence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
@@ -1078,30 +1054,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6890">
-          <caret line="265" column="41" lean-forward="false" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/city_around.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="41" column="107" lean-forward="false" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="107" />
-          <folding>
-            <marker date="1502982292684" expanded="false" signature="9060:9066" ph=" " />
-            <marker date="1502982292684" expanded="false" signature="9066:9072" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="114" lean-forward="true" selection-start-line="0" selection-start-column="114" selection-end-line="0" selection-end-column="114" />
         </state>
       </provider>
     </entry>
@@ -1110,6 +1073,79 @@
         <state relative-caret-position="312">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#14#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/city_around.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <marker date="1502982292684" expanded="false" signature="9060:9066" ph=" " />
+            <marker date="1502982292684" expanded="false" signature="9066:9072" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="265" column="41" lean-forward="false" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/city_location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT name tour_city" />
+            <marker date="1502974202047" expanded="true" signature="648:694" ph="SELECT point... tour_city" />
+            <marker date="1502974202047" expanded="true" signature="1381:1432" ph="update tour_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#110#0" expanded="true" />
+            <marker date="1503065635825" expanded="true" signature="439:475" ph="SELECT name tour_city" />
+            <marker date="1503065635825" expanded="true" signature="439:477" ph="SELECT name tour_city" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#96#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
