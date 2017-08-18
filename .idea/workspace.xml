@@ -2,245 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/01_mid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/01_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/02_mid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/02_small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/57a801860001c34b12000460.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/57aa86a0000145c512000460.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/about_nav_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/aobama.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/arrow_g.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/authentication.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bgblack.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billboxactive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billcheck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billcheckg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bjdx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check_alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/checkbox.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/checked.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/city/nanjing.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/city/wuxi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/city/zhenjiang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/code.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/companydes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/companylogo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/companyrank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/compright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/contract.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/course.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/diary-edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/dig_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/drop_plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/drop_plus_g.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/error-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/avi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/cdr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/csv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/doc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/jpg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/mp3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/pdf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/png.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/ppt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/rar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/txt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/xls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/zip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/复件 txt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/fold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/footlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/fqy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/g_star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gj.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/goback.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/group.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/group_recommend.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/h_star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/header_middle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/help_index_pic.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/homepage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ht-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-diary-jl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-diary-my.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-diary-user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-release-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-release-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-release-over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/laba.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/list_time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/login-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/mayun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module1_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module3_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_4_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module5_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module5_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module6_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module6bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/my.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/mysql.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/nav_arrow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/nav_hot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/njdx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/oyf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pathbg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pathbg2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/paypic1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/paypic2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic1_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic403.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic404.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic503.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pixel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/plus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pop-tips-info-arr.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/python-zhengze.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/python.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/qhdx-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/qhdx.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/r_star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rankgold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rankgreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rightform1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rightform2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rightform3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rolling.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/sass.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/scores.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/search_btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/select-arr-default.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/select_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/select_arrow2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c1_g.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side1_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side2_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side3_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side4_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_l.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_l_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_r.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_r_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star-btn-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tab-jt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/taihu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/top_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/unfold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/user.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/weixi_icon2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/weixi_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/weixi_sm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/word403.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/word503.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/x_alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/xishan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/zwj.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/nanjing.jpg" afterPath="$PROJECT_DIR$/media/city/nanjing.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/suzhou.jpg" afterPath="$PROJECT_DIR$/media/city/suzhou.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/wuxi.jpg" afterPath="$PROJECT_DIR$/media/city/wuxi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/yangzhou.jpg" afterPath="$PROJECT_DIR$/media/city/yangzhou.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/zhenjiang.jpg" afterPath="$PROJECT_DIR$/media/city/zhenjiang.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
     </list>
@@ -356,18 +117,21 @@
       <file leaf-file-name="get_city_disc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+            <state relative-caret-position="-216">
+              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
               <folding>
                 <element signature="e#96#110#0" expanded="true" />
-                <marker date="1503072054711" expanded="true" signature="464:500" ph="SELECT name tour_city" />
-                <marker date="1503072054711" expanded="true" signature="464:502" ph="SELECT name tour_city" />
-                <marker date="1503072054711" expanded="true" signature="1153:1184" ph="update tour_... " />
-                <marker date="1503072054711" expanded="true" signature="1153:1194" ph="update tour_... " />
-                <marker date="1503072054711" expanded="true" signature="1153:1196" ph="update tour_... " />
-                <marker date="1503072054711" expanded="true" signature="1568:1588" ph="update tour_... " />
-                <marker date="1503072054711" expanded="true" signature="1568:1610" ph="update tour_... " />
-                <marker date="1503072054711" expanded="true" signature="1568:1612" ph="update tour_... " />
+                <marker date="1503073478372" expanded="true" signature="490:516" ph="select desc " />
+                <marker date="1503073478372" expanded="true" signature="490:528" ph="select `desc... tour_city" />
+                <marker date="1503073478372" expanded="true" signature="490:530" ph="select `desc... tour_city" />
+                <marker date="1503073478372" expanded="true" signature="659:695" ph="SELECT name tour_city" />
+                <marker date="1503073478372" expanded="true" signature="659:697" ph="SELECT name tour_city" />
+                <marker date="1503073478372" expanded="true" signature="1348:1379" ph="update tour_... " />
+                <marker date="1503073478372" expanded="true" signature="1348:1389" ph="update tour_... " />
+                <marker date="1503073478372" expanded="true" signature="1348:1391" ph="update tour_... " />
+                <marker date="1503073478372" expanded="true" signature="1763:1783" ph="update tour_... " />
+                <marker date="1503073478372" expanded="true" signature="1763:1805" ph="update tour_... " />
+                <marker date="1503073478372" expanded="true" signature="1763:1807" ph="update tour_... " />
               </folding>
             </state>
           </provider>
@@ -955,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503069729419</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="city表完成了">
+      <created>1503073274814</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1503073274814</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -999,14 +770,15 @@
     <MESSAGE value="删除冗余css" />
     <MESSAGE value="汉字转化成拼音，制成url以访问百度旅游。尝试下载图片" />
     <MESSAGE value="抓取图片，文字等的原型制作完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="抓取图片，文字等的原型制作完毕" />
+    <MESSAGE value="city表完成了" />
+    <option name="LAST_COMMIT_MESSAGE" value="city表完成了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py</url>
-          <line>45</line>
+          <line>52</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
@@ -1401,18 +1173,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        <state relative-caret-position="-216">
+          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="e#96#110#0" expanded="true" />
-            <marker date="1503072054711" expanded="true" signature="464:500" ph="SELECT name tour_city" />
-            <marker date="1503072054711" expanded="true" signature="464:502" ph="SELECT name tour_city" />
-            <marker date="1503072054711" expanded="true" signature="1153:1184" ph="update tour_... " />
-            <marker date="1503072054711" expanded="true" signature="1153:1194" ph="update tour_... " />
-            <marker date="1503072054711" expanded="true" signature="1153:1196" ph="update tour_... " />
-            <marker date="1503072054711" expanded="true" signature="1568:1588" ph="update tour_... " />
-            <marker date="1503072054711" expanded="true" signature="1568:1610" ph="update tour_... " />
-            <marker date="1503072054711" expanded="true" signature="1568:1612" ph="update tour_... " />
+            <marker date="1503073478372" expanded="true" signature="490:516" ph="select desc " />
+            <marker date="1503073478372" expanded="true" signature="490:528" ph="select `desc... tour_city" />
+            <marker date="1503073478372" expanded="true" signature="490:530" ph="select `desc... tour_city" />
+            <marker date="1503073478372" expanded="true" signature="659:695" ph="SELECT name tour_city" />
+            <marker date="1503073478372" expanded="true" signature="659:697" ph="SELECT name tour_city" />
+            <marker date="1503073478372" expanded="true" signature="1348:1379" ph="update tour_... " />
+            <marker date="1503073478372" expanded="true" signature="1348:1389" ph="update tour_... " />
+            <marker date="1503073478372" expanded="true" signature="1348:1391" ph="update tour_... " />
+            <marker date="1503073478372" expanded="true" signature="1763:1783" ph="update tour_... " />
+            <marker date="1503073478372" expanded="true" signature="1763:1805" ph="update tour_... " />
+            <marker date="1503073478372" expanded="true" signature="1763:1807" ph="update tour_... " />
           </folding>
         </state>
       </provider>

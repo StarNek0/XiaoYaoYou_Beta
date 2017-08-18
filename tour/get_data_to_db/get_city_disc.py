@@ -20,6 +20,13 @@ conn = MySQLdb.connect(
 )
 cur = conn.cursor()
 for cityid in range(1, 392):
+    cur1 = conn.cursor()
+    cur1.execute('select `desc` from tour_city WHERE id=%d;' % cityid)
+    if cur1.fetchone():
+        cur1.close()
+        continue
+    cur1.close()  # 以上判断是否需要存数据
+
     cur.execute('SELECT name FROM tour_city WHERE id=%d;' % cityid)
     cityname = "".join(cur.fetchone())  # 数据库数据转换为字符串
 
