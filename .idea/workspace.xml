@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
+    <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="数据库结构和数据">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/quickly_page.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,21 +117,20 @@
       <file leaf-file-name="get_city_disc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="156">
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding>
-                <element signature="e#96#110#0" expanded="true" />
-                <marker date="1503073478372" expanded="true" signature="490:516" ph="select desc " />
-                <marker date="1503073478372" expanded="true" signature="490:528" ph="select `desc... tour_city" />
-                <marker date="1503073478372" expanded="true" signature="490:530" ph="select `desc... tour_city" />
-                <marker date="1503073478372" expanded="true" signature="659:695" ph="SELECT name tour_city" />
-                <marker date="1503073478372" expanded="true" signature="659:697" ph="SELECT name tour_city" />
-                <marker date="1503073478372" expanded="true" signature="1348:1379" ph="update tour_... " />
-                <marker date="1503073478372" expanded="true" signature="1348:1389" ph="update tour_... " />
-                <marker date="1503073478372" expanded="true" signature="1348:1391" ph="update tour_... " />
-                <marker date="1503073478372" expanded="true" signature="1763:1783" ph="update tour_... " />
-                <marker date="1503073478372" expanded="true" signature="1763:1805" ph="update tour_... " />
-                <marker date="1503073478372" expanded="true" signature="1763:1807" ph="update tour_... " />
+                <marker date="1503073480342" expanded="true" signature="490:516" ph="select desc " />
+                <marker date="1503073480342" expanded="true" signature="490:528" ph="select `desc... tour_city" />
+                <marker date="1503073480342" expanded="true" signature="490:530" ph="select `desc... tour_city" />
+                <marker date="1503073480342" expanded="true" signature="655:691" ph="SELECT name tour_city" />
+                <marker date="1503073480342" expanded="true" signature="655:693" ph="SELECT name tour_city" />
+                <marker date="1503073480342" expanded="true" signature="1344:1375" ph="update tour_... " />
+                <marker date="1503073480342" expanded="true" signature="1344:1385" ph="update tour_... " />
+                <marker date="1503073480342" expanded="true" signature="1344:1387" ph="update tour_... " />
+                <marker date="1503073480342" expanded="true" signature="1759:1779" ph="update tour_... " />
+                <marker date="1503073480342" expanded="true" signature="1759:1801" ph="update tour_... " />
+                <marker date="1503073480342" expanded="true" signature="1759:1803" ph="update tour_... " />
               </folding>
             </state>
           </provider>
@@ -260,23 +259,7 @@
             <path>
               <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="get_data_to_db" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -726,14 +709,20 @@
       <option name="project" value="LOCAL" />
       <updated>1503073274814</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="city表完成了">
+      <created>1503073480763</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1503073480763</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5063966" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -775,13 +764,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
@@ -1173,21 +1155,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="156">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
-            <element signature="e#96#110#0" expanded="true" />
-            <marker date="1503073478372" expanded="true" signature="490:516" ph="select desc " />
-            <marker date="1503073478372" expanded="true" signature="490:528" ph="select `desc... tour_city" />
-            <marker date="1503073478372" expanded="true" signature="490:530" ph="select `desc... tour_city" />
-            <marker date="1503073478372" expanded="true" signature="659:695" ph="SELECT name tour_city" />
-            <marker date="1503073478372" expanded="true" signature="659:697" ph="SELECT name tour_city" />
-            <marker date="1503073478372" expanded="true" signature="1348:1379" ph="update tour_... " />
-            <marker date="1503073478372" expanded="true" signature="1348:1389" ph="update tour_... " />
-            <marker date="1503073478372" expanded="true" signature="1348:1391" ph="update tour_... " />
-            <marker date="1503073478372" expanded="true" signature="1763:1783" ph="update tour_... " />
-            <marker date="1503073478372" expanded="true" signature="1763:1805" ph="update tour_... " />
-            <marker date="1503073478372" expanded="true" signature="1763:1807" ph="update tour_... " />
+            <marker date="1503073480342" expanded="true" signature="490:516" ph="select desc " />
+            <marker date="1503073480342" expanded="true" signature="490:528" ph="select `desc... tour_city" />
+            <marker date="1503073480342" expanded="true" signature="490:530" ph="select `desc... tour_city" />
+            <marker date="1503073480342" expanded="true" signature="655:691" ph="SELECT name tour_city" />
+            <marker date="1503073480342" expanded="true" signature="655:693" ph="SELECT name tour_city" />
+            <marker date="1503073480342" expanded="true" signature="1344:1375" ph="update tour_... " />
+            <marker date="1503073480342" expanded="true" signature="1344:1385" ph="update tour_... " />
+            <marker date="1503073480342" expanded="true" signature="1344:1387" ph="update tour_... " />
+            <marker date="1503073480342" expanded="true" signature="1759:1779" ph="update tour_... " />
+            <marker date="1503073480342" expanded="true" signature="1759:1801" ph="update tour_... " />
+            <marker date="1503073480342" expanded="true" signature="1759:1803" ph="update tour_... " />
           </folding>
         </state>
       </provider>
