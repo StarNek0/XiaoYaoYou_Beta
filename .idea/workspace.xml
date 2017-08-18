@@ -2,8 +2,247 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/01_mid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/01_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/02_mid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/02_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/57a801860001c34b12000460.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/57aa86a0000145c512000460.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/about_nav_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/aobama.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/arrow_g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/authentication.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bank5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/banner_icon4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bgblack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billboxactive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billcheck.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/billcheckg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/bjdx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/btn4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/check_alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/checkbox.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/checked.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/city/nanjing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/city/wuxi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/city/zhenjiang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/companydes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/companylogo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/companyrank.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/compright.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/contract.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/course.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/diary-edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/dig_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/drop_plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/drop_plus_g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/error-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/feature6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/avi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/cdr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/csv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/doc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/jpg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/mp3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/png.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/ppt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/rar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/xls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/zip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/filebg/复件 txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/fold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/footlogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/fqy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/g_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/goback.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/group_recommend.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/gx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/h_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/header_middle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/help_index_pic.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/homepage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/ht-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-diary-jl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-diary-my.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-diary-user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-release-active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-release-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon-release-over.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/icon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/laba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/list_time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/login-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/mayun.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module1_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module1_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module3_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_4_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module4_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module5_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module5_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module6_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/module6bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/my.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/mysql.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/nav_arrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/nav_hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/njdx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/oyf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/path6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pathbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pathbg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pay4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/paypic1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/paypic2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic403.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic404.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic503.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pic9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pixel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/plus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/pop-tips-info-arr.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/python-zhengze.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/python.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/qhdx-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/qhdx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/r_star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rankgold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rankgreen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/release8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rightform1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rightform2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rightform3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/rolling.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/sass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/scores.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/search_btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/select-arr-default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/select_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/select_arrow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/send.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c1_g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/share_c9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side1_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side2_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side3_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/side4_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_l.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_l_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_r.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/slide_r_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star-btn-hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star-btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star-hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tab-jt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/taihu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/tell.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/top_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/unfold.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/upload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/user.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/weixi_icon2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/weixi_image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/weixi_sm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/word403.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/word503.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/x_alt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/xishan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/zwj.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/nanjing.jpg" afterPath="$PROJECT_DIR$/media/city/nanjing.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/suzhou.jpg" afterPath="$PROJECT_DIR$/media/city/suzhou.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/wuxi.jpg" afterPath="$PROJECT_DIR$/media/city/wuxi.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/yangzhou.jpg" afterPath="$PROJECT_DIR$/media/city/yangzhou.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/city/zhenjiang.jpg" afterPath="$PROJECT_DIR$/media/city/zhenjiang.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +252,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Quickly_Page$get_city_disc.coverage" NAME="get_city_disc Coverage Results" MODIFIED="1503062330203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour/get_data_to_db" />
+    <SUITE FILE_PATH="coverage/Quickly_Page$get_city_disc.coverage" NAME="get_city_disc Coverage Results" MODIFIED="1503072054717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour/get_data_to_db" />
     <SUITE FILE_PATH="coverage/Quickly_Page$ip_location.coverage" NAME="ip_location Coverage Results" MODIFIED="1502975515139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour" />
     <SUITE FILE_PATH="coverage/Quickly_Page$city_location.coverage" NAME="city_location Coverage Results" MODIFIED="1502973657810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour" />
     <SUITE FILE_PATH="coverage/Quickly_Page$t_get_pic.coverage" NAME="t_get_pic Coverage Results" MODIFIED="1503069562109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tour/get_data_to_db" />
@@ -114,28 +353,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_city_disc.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_city_disc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               <folding>
                 <element signature="e#96#110#0" expanded="true" />
-                <marker date="1503065635825" expanded="true" signature="439:475" ph="SELECT name tour_city" />
-                <marker date="1503065635825" expanded="true" signature="439:477" ph="SELECT name tour_city" />
+                <marker date="1503072054711" expanded="true" signature="464:500" ph="SELECT name tour_city" />
+                <marker date="1503072054711" expanded="true" signature="464:502" ph="SELECT name tour_city" />
+                <marker date="1503072054711" expanded="true" signature="1153:1184" ph="update tour_... " />
+                <marker date="1503072054711" expanded="true" signature="1153:1194" ph="update tour_... " />
+                <marker date="1503072054711" expanded="true" signature="1153:1196" ph="update tour_... " />
+                <marker date="1503072054711" expanded="true" signature="1568:1588" ph="update tour_... " />
+                <marker date="1503072054711" expanded="true" signature="1568:1610" ph="update tour_... " />
+                <marker date="1503072054711" expanded="true" signature="1568:1612" ph="update tour_... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t_get_pic.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="t_get_pic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="e#96#109#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,7 +386,7 @@
       <file leaf-file-name="city_location.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/city_location.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
+            <state relative-caret-position="546">
               <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
               <folding>
                 <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT name tour_city" />
@@ -201,9 +444,9 @@
         <option value="$PROJECT_DIR$/tour/testdistence.py" />
         <option value="$PROJECT_DIR$/templates/city_around.html" />
         <option value="$PROJECT_DIR$/static/css/base.css" />
-        <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
         <option value="$PROJECT_DIR$/tour/views.py" />
         <option value="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" />
+        <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
       </list>
     </option>
   </component>
@@ -248,13 +491,12 @@
             <path>
               <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +555,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t_get_pic">
+  <component name="RunManager" selected="Python.get_city_disc">
     <configuration name="Quickly_Page" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -607,8 +849,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.t_get_pic" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_city_disc" />
+        <item index="0" class="java.lang.String" itemvalue="Python.get_city_disc" />
+        <item index="1" class="java.lang.String" itemvalue="Python.t_get_pic" />
         <item index="2" class="java.lang.String" itemvalue="Python.testdistence" />
         <item index="3" class="java.lang.String" itemvalue="Python.ip_location" />
         <item index="4" class="java.lang.String" itemvalue="Python.city_location" />
@@ -706,25 +948,32 @@
       <option name="project" value="LOCAL" />
       <updated>1503069714969</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="抓取图片，文字等的原型制作完毕">
+      <created>1503069729419</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1503069729419</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22228146" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2171875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5063966" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18385416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49573562" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.4914712" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3205945" sideWeight="0.4936034" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934713" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17857143" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -754,29 +1003,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tour/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6890">
-          <caret line="265" column="41" lean-forward="true" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/city_around.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1075,46 +1313,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/city_around.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <marker date="1502982292684" expanded="false" signature="9060:9066" ph=" " />
-            <marker date="1502982292684" expanded="false" signature="9066:9072" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="265" column="41" lean-forward="false" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/city_location.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT name tour_city" />
-            <marker date="1502974202047" expanded="true" signature="648:694" ph="SELECT point... tour_city" />
-            <marker date="1502974202047" expanded="true" signature="1381:1432" ph="update tour_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#96#110#0" expanded="true" />
-            <marker date="1503065635825" expanded="true" signature="439:475" ph="SELECT name tour_city" />
-            <marker date="1503065635825" expanded="true" signature="439:477" ph="SELECT name tour_city" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,12 +1355,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/city_around.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <marker date="1502982292684" expanded="false" signature="9060:9066" ph=" " />
+            <marker date="1502982292684" expanded="false" signature="9066:9072" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/city_location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT name tour_city" />
+            <marker date="1502974202047" expanded="true" signature="648:694" ph="SELECT point... tour_city" />
+            <marker date="1502974202047" expanded="true" signature="1381:1432" ph="update tour_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="1589" column="12" lean-forward="true" selection-start-line="1589" selection-start-column="12" selection-end-line="1589" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="182">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/city/qitaihe.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding>
-            <element signature="e#96#109#0" expanded="true" />
+            <element signature="e#96#110#0" expanded="true" />
+            <marker date="1503072054711" expanded="true" signature="464:500" ph="SELECT name tour_city" />
+            <marker date="1503072054711" expanded="true" signature="464:502" ph="SELECT name tour_city" />
+            <marker date="1503072054711" expanded="true" signature="1153:1184" ph="update tour_... " />
+            <marker date="1503072054711" expanded="true" signature="1153:1194" ph="update tour_... " />
+            <marker date="1503072054711" expanded="true" signature="1153:1196" ph="update tour_... " />
+            <marker date="1503072054711" expanded="true" signature="1568:1588" ph="update tour_... " />
+            <marker date="1503072054711" expanded="true" signature="1568:1610" ph="update tour_... " />
+            <marker date="1503072054711" expanded="true" signature="1568:1612" ph="update tour_... " />
           </folding>
         </state>
       </provider>

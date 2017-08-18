@@ -6,6 +6,7 @@ import MySQLdb
 import re
 import urllib2
 import urllib
+from lxml import etree
 from urllib2 import urlopen
 from pypinyin import lazy_pinyin
 
@@ -18,7 +19,7 @@ conn = MySQLdb.connect(
     charset='utf8',  # 不加这一行，中文变问号
 )
 cur = conn.cursor()
-for cityid in range(1, 5):
+for cityid in range(1, 392):
     cur.execute('SELECT name FROM tour_city WHERE id=%d;' % cityid)
     cityname = "".join(cur.fetchone())  # 数据库数据转换为字符串
 
@@ -31,9 +32,24 @@ for cityid in range(1, 5):
     print cityname
     url = 'https://lvyou.baidu.com/' + cityname
     try:
-        print urlopen(url).read()
+        html = urllib2.urlopen(url).read()
+        imgurl = re.search('//gss0.baidu.com/.+.jpg', html).group(0)  # 分析出图片的url
+        imgurl = 'http:' + imgurl
+        urllib.urlretrieve(imgurl, r'D:\Python_projects\djangoProject\Quickly_Page\media\city\%s.jpg' % cityname)  # 存储图片
+        cur.execute('update tour_city set image="%s" where id=%d;' % ('city/'+cityname+'.jpg', cityid))  # 数据库中存储图片位置
+
+        # 以下是分析并存储城市描述的代码
+        html = html.decode('utf8')
+        html = etree.HTML(html)
+        text = html.xpath('//p[@class="main-desc-p"]/text()')
+        text.remove('\n')
+        text[0].replace(r'\\n', '')
+        description = text[0][1:len(text[0]) - 1]
+        # print description
+
+        cur.execute('update tour_city set `desc`="%s" WHERE id=%d;' % (description, cityid))
     except Exception as e:
-        print '--', e, '--'
+        print e
 
 cur.close()
 conn.commit()
