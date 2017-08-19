@@ -4,7 +4,7 @@ from urllib2 import urlopen
 from django.shortcuts import render
 from django.views.generic import View
 
-from .models import City
+from .models import City, Province
 
 
 # Create your views here.
@@ -43,11 +43,13 @@ class CityAroundView(View):
     def get(self, request, city_a):
         city_A = City.objects.get(id=int(city_a))
         around_citys = City.objects.filter(province_id=city_A.province_id)
+        province = Province.objects.get(id=city_A.province_id)  # 获取该城市所在的省份
         for i in around_citys:
             i.distance = round(haversine(city_A.pointx, city_A.pointy, i.pointx, i.pointy)/1000.0, 1)
         return render(request, 'city_around.html', {
             'city_A': city_A,
             'around_citys': around_citys,
+            'province': province
         })
         # if request.META.has_key('HTTP_X_FORWARDED_FOR'):  # 返回访问者当前的ip，由于暂时是开发模式，无法验证是否生效
         #     ip = request.META['HTTP_X_FORWARDED_FOR']
