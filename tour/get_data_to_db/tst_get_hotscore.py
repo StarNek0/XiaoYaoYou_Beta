@@ -8,6 +8,8 @@ import re
 import MySQLdb
 from pypinyin import lazy_pinyin
 
+__doc__ = "测试代码"
+
 conn = MySQLdb.connect(
     host='localhost',
     port=3306,
@@ -23,7 +25,6 @@ for cityid in range(23, 24):
     a, b = cur1.fetchone()
     print type(a), b
     cur1.close()
-
 
 conn.commit()
 conn.close()

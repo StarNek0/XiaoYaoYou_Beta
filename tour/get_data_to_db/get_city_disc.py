@@ -10,6 +10,8 @@ from lxml import etree
 from urllib2 import urlopen
 from pypinyin import lazy_pinyin
 
+__doc__ = "这是一个爬取与存储城市描述及其图片的模块"
+
 conn = MySQLdb.connect(
     host='localhost',
     port=3306,
@@ -42,8 +44,10 @@ for cityid in range(1, 392):
         html = urllib2.urlopen(url).read()
         imgurl = re.search('//gss0.baidu.com/.+.jpg', html).group(0)  # 分析出图片的url
         imgurl = 'http:' + imgurl
-        urllib.urlretrieve(imgurl, r'D:\Python_projects\djangoProject\Quickly_Page\media\city\%s.jpg' % cityname)  # 存储图片
-        cur.execute('update tour_city set image="%s" where id=%d;' % ('city/'+cityname+'.jpg', cityid))  # 数据库中存储图片位置
+        urllib.urlretrieve(imgurl,
+                           r'D:\Python_projects\djangoProject\Quickly_Page\media\city\%s.jpg' % cityname)  # 存储图片
+        cur.execute(
+            'update tour_city set image="%s" where id=%d;' % ('city/' + cityname + '.jpg', cityid))  # 数据库中存储图片位置
 
         # 以下是分析并存储城市描述的代码
         html = html.decode('utf8')

@@ -8,6 +8,8 @@ import re
 import MySQLdb
 from pypinyin import lazy_pinyin
 
+__doc__ = "这是一个爬取与存储城市热门指数的模块，数据来源为百度旅游的城市旅游评价次数"
+
 conn = MySQLdb.connect(
     host='localhost',
     port=3306,

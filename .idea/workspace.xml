@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/city_around.html" afterPath="$PROJECT_DIR$/templates/city_around.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/models.py" afterPath="$PROJECT_DIR$/tour/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/tour/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="29" />
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#14#53#0" expanded="true" />
               </folding>
@@ -97,65 +96,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="265" column="41" lean-forward="false" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
+            <state relative-caret-position="208">
+              <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_city_hotscore.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1136">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-              <folding>
-                <element signature="e#96#110#0" expanded="true" />
-                <marker date="1503111250237" expanded="true" signature="407:449" ph="select hot, tour_city" />
-                <marker date="1503111250237" expanded="true" signature="407:451" ph="select hot f... tour_city" />
-                <marker date="1503111250237" expanded="true" signature="705:741" ph="SELECT name tour_city" />
-                <marker date="1503111250237" expanded="true" signature="1214:1241" ph="update tour_... " />
-                <marker date="1503111250237" expanded="true" signature="1214:1251" ph="update tour_... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tst_get_hotscore.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="e#97#111#0" expanded="true" />
-                <marker date="1503110279402" expanded="true" signature="407:448" ph="select hot,i... tour_city" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_city_disc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-              <folding>
-                <element signature="e#96#110#0" expanded="true" />
-                <marker date="1503073480342" expanded="true" signature="490:516" ph="select desc " />
-                <marker date="1503073480342" expanded="true" signature="490:528" ph="select `desc... tour_city" />
-                <marker date="1503073480342" expanded="true" signature="490:530" ph="select `desc... tour_city" />
-                <marker date="1503073480342" expanded="true" signature="655:691" ph="SELECT name tour_city" />
-                <marker date="1503073480342" expanded="true" signature="655:693" ph="SELECT name tour_city" />
-                <marker date="1503073480342" expanded="true" signature="1344:1375" ph="update tour_... " />
-                <marker date="1503073480342" expanded="true" signature="1344:1385" ph="update tour_... " />
-                <marker date="1503073480342" expanded="true" signature="1344:1387" ph="update tour_... " />
-                <marker date="1503073480342" expanded="true" signature="1759:1779" ph="update tour_... " />
-                <marker date="1503073480342" expanded="true" signature="1759:1801" ph="update tour_... " />
-                <marker date="1503073480342" expanded="true" signature="1759:1803" ph="update tour_... " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -208,11 +154,12 @@
         <option value="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" />
         <option value="$PROJECT_DIR$/requirement.txt" />
         <option value="$PROJECT_DIR$/tour/views.py" />
-        <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
         <option value="$PROJECT_DIR$/templates/city_around.html" />
         <option value="$PROJECT_DIR$/tour/models.py" />
-        <option value="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" />
+        <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
         <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py" />
+        <option value="$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py" />
+        <option value="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" />
       </list>
     </option>
   </component>
@@ -765,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503104419157</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="完成城市热门指数数据的爬取">
+      <created>1503111550107</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1503111550107</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -814,7 +768,8 @@
     <MESSAGE value="所有城市图片" />
     <MESSAGE value="rq" />
     <MESSAGE value="获取城市所在省份" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取城市所在省份" />
+    <MESSAGE value="完成城市热门指数数据的爬取" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成城市热门指数数据的爬取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,13 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/ip_location.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1040,13 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1690">
           <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/testdistence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1109,18 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/city_location.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT name tour_city" />
-            <marker date="1502974202047" expanded="true" signature="648:694" ph="SELECT point... tour_city" />
-            <marker date="1502974202047" expanded="true" signature="1381:1432" ph="update tour_... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tour/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
@@ -1128,14 +1057,6 @@
           <folding>
             <element signature="e#15#24#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="265" column="41" lean-forward="false" selection-start-line="265" selection-start-column="41" selection-end-line="265" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,70 +1071,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#96#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tour/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="29" />
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="e#14#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/testdistence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="208">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#96#110#0" expanded="true" />
-            <marker date="1503073480342" expanded="true" signature="490:516" ph="select desc " />
-            <marker date="1503073480342" expanded="true" signature="490:528" ph="select `desc... tour_city" />
-            <marker date="1503073480342" expanded="true" signature="490:530" ph="select `desc... tour_city" />
-            <marker date="1503073480342" expanded="true" signature="655:691" ph="SELECT name tour_city" />
-            <marker date="1503073480342" expanded="true" signature="655:693" ph="SELECT name tour_city" />
-            <marker date="1503073480342" expanded="true" signature="1344:1375" ph="update tour_... " />
-            <marker date="1503073480342" expanded="true" signature="1344:1385" ph="update tour_... " />
-            <marker date="1503073480342" expanded="true" signature="1344:1387" ph="update tour_... " />
-            <marker date="1503073480342" expanded="true" signature="1759:1779" ph="update tour_... " />
-            <marker date="1503073480342" expanded="true" signature="1759:1801" ph="update tour_... " />
-            <marker date="1503073480342" expanded="true" signature="1759:1803" ph="update tour_... " />
+            <marker date="1503112764229" expanded="true" signature="458:500" ph="select hot, tour_city" />
+            <marker date="1503112764229" expanded="true" signature="458:502" ph="select hot f... tour_city" />
+            <marker date="1503112764229" expanded="true" signature="756:792" ph="SELECT name tour_city" />
+            <marker date="1503112764229" expanded="true" signature="1265:1292" ph="update tour_... " />
+            <marker date="1503112764229" expanded="true" signature="1265:1302" ph="update tour_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#110#0" expanded="true" />
+            <marker date="1503112697088" expanded="true" signature="524:550" ph="select desc " />
+            <marker date="1503112697088" expanded="true" signature="524:562" ph="select `desc... tour_city" />
+            <marker date="1503112697088" expanded="true" signature="524:564" ph="select `desc... tour_city" />
+            <marker date="1503112697088" expanded="true" signature="689:725" ph="SELECT name tour_city" />
+            <marker date="1503112697088" expanded="true" signature="689:727" ph="SELECT name tour_city" />
+            <marker date="1503112697088" expanded="true" signature="1418:1449" ph="update tour_... " />
+            <marker date="1503112697088" expanded="true" signature="1418:1459" ph="update tour_... " />
+            <marker date="1503112697088" expanded="true" signature="1418:1461" ph="update tour_... " />
+            <marker date="1503112697088" expanded="true" signature="1837:1857" ph="update tour_... " />
+            <marker date="1503112697088" expanded="true" signature="1837:1879" ph="update tour_... " />
+            <marker date="1503112697088" expanded="true" signature="1837:1881" ph="update tour_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/ip_location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/city_location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <marker date="1502974202047" expanded="true" signature="544:580" ph="SELECT name tour_city" />
+            <marker date="1502974202047" expanded="true" signature="648:694" ph="SELECT point... tour_city" />
+            <marker date="1502974202047" expanded="true" signature="1381:1432" ph="update tour_... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="260">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#97#111#0" expanded="true" />
-            <marker date="1503110279402" expanded="true" signature="407:448" ph="select hot,i... tour_city" />
+            <marker date="1503112820568" expanded="true" signature="425:466" ph="select hot,i... tour_city" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1136">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-          <folding>
-            <element signature="e#96#110#0" expanded="true" />
-            <marker date="1503111250237" expanded="true" signature="407:449" ph="select hot, tour_city" />
-            <marker date="1503111250237" expanded="true" signature="407:451" ph="select hot f... tour_city" />
-            <marker date="1503111250237" expanded="true" signature="705:741" ph="SELECT name tour_city" />
-            <marker date="1503111250237" expanded="true" signature="1214:1241" ph="update tour_... " />
-            <marker date="1503111250237" expanded="true" signature="1214:1251" ph="update tour_... " />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
