@@ -20,3 +20,5 @@ class City(models.Model):
 class Province(models.Model):
     p_name = models.CharField(verbose_name='省份名', default='', max_length=30)
     wm = models.CharField(verbose_name='省份名缩写', max_length=5)
+
+
