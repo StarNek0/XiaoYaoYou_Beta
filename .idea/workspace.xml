@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b10fcaf5-7c8c-4c41-8002-22b9b3ab8b68" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py" afterPath="$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tour/views.py" afterPath="$PROJECT_DIR$/tour/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,24 +81,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tour/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="45" column="76" lean-forward="false" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
+            <state relative-caret-position="186">
+              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -153,13 +140,13 @@
         <option value="$PROJECT_DIR$/static/css/base.css" />
         <option value="$PROJECT_DIR$/tour/get_data_to_db/t_get_pic.py" />
         <option value="$PROJECT_DIR$/requirement.txt" />
-        <option value="$PROJECT_DIR$/tour/views.py" />
         <option value="$PROJECT_DIR$/templates/city_around.html" />
         <option value="$PROJECT_DIR$/tour/models.py" />
         <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_disc.py" />
         <option value="$PROJECT_DIR$/tour/get_data_to_db/get_city_hotscore.py" />
         <option value="$PROJECT_DIR$/tour/get_data_to_db/tst_get_pic.py" />
         <option value="$PROJECT_DIR$/tour/get_data_to_db/tst_get_hotscore.py" />
+        <option value="$PROJECT_DIR$/tour/views.py" />
       </list>
     </option>
   </component>
@@ -214,12 +201,6 @@
               <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
               <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
               <item name="tour" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Quickly_Page" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Quickly_Page" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="get_data_to_db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -719,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503111550107</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="为代码文件添加说明">
+      <created>1503112836012</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1503112836012</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -769,7 +757,8 @@
     <MESSAGE value="rq" />
     <MESSAGE value="获取城市所在省份" />
     <MESSAGE value="完成城市热门指数数据的爬取" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成城市热门指数数据的爬取" />
+    <MESSAGE value="为代码文件添加说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="为代码文件添加说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1050,16 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tour/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="45" column="76" lean-forward="false" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/city_around.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1168,9 +1147,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="7007">
           <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tour/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

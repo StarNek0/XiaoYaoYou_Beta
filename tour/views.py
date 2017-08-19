@@ -19,10 +19,11 @@ class TourWayView(View):
             'city_B': city_B,
         })
 
+
 from math import radians, cos, sin, asin, sqrt
 
 
-def haversine(lon1, lat1, lon2, lat2): # 经度1，纬度1，经度2，纬度2 （十进制度数）
+def haversine(lon1, lat1, lon2, lat2):  # 经度1，纬度1，经度2，纬度2 （十进制度数）
     """
     Calculate the great circle distance between two points
     on the earth (specified in decimal degrees)
@@ -33,9 +34,9 @@ def haversine(lon1, lat1, lon2, lat2): # 经度1，纬度1，经度2，纬度2 �
     # haversine公式
     dlon = lon2 - lon1
     dlat = lat2 - lat1
-    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    a = sin(dlat / 2) ** 2 + cos(lat1) * cos(lat2) * sin(dlon / 2) ** 2
     c = 2 * asin(sqrt(a))
-    r = 6371 # 地球平均半径，单位为公里
+    r = 6371  # 地球平均半径，单位为公里
     return c * r * 1000
 
 
@@ -45,7 +46,7 @@ class CityAroundView(View):
         around_citys = City.objects.filter(province_id=city_A.province_id)
         province = Province.objects.get(id=city_A.province_id)  # 获取该城市所在的省份
         for i in around_citys:
-            i.distance = round(haversine(city_A.pointx, city_A.pointy, i.pointx, i.pointy)/1000.0, 1)
+            i.distance = round(haversine(city_A.pointx, city_A.pointy, i.pointx, i.pointy) / 1000.0, 1)
         return render(request, 'city_around.html', {
             'city_A': city_A,
             'around_citys': around_citys,
